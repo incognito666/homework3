@@ -138,6 +138,41 @@ List 3
   osp2 : 4  
    This corresponds to the fact that osp2 had analysts who were more experienced than those in osp. 
 
+#Theory Question 4  
+
+##Practice Tasks  
+
+ * Task 1: Worse Bad Smells and Better Effort  
+  Treatment  
+<code>
+ @rx
+def screwBadSmell(): return dict (
+  Team = [1], Flex = [5], cplx = [6])
+</code>  
+
+* Task 2: Better Bad Smell and Worse Effort  
+  Treatment  
+<code>
+@rx
+def doSomething(): return dict(
+ acap=[5],pcap=[2],pcon=[1], aexp=[5], pexp=[1], ltex=[2], docu=[5])</code>  
+
+* Task 3: Better Bas Smell and Better Effort    
+  Treatment  
+<code>  
+@rx
+def doSomething3(): return dict(
+ time=[3],stor=[3],pvol=[3],tool=[3], site=[6], acap=[5],pcap=[1])</code>
+
+###Effects:  
+
+* Bad Smells:  
+  ![Bad Smells] (https://github.com/incognito666/homework3/blob/master/bad%20smells.png)  
+* Effort:  
+  ![Effort] (https://github.com/incognito666/homework3/blob/master/effort.png)  
+
+
+
 
 
 
