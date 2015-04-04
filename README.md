@@ -100,7 +100,19 @@ List 3
     Description: This determines the length of the schedule or project duration granted.  
   Story: The management decided to go with a relaxed schedule causing a high sced value and reduced effort.  
   
-#Theory Question 2  
+#Theory Question 2  : Treatments (Management Actions)  
+  *  
+   <code> @rx def reduceQuality():  return dict(
+rely = [1], docu=[1], time = [3], cplx = [1]) </code>  
+   Management of the company decided to reduce the effort by reducing the amount of information to be documented. Also, they decided that the product that they are developing need not be reliable and it need not be complex at all so that the effort they need to put in would be less.  
+
+  *  
+   <code> @rx def relaxSchedule(): return dict(sced = [5]) </code>  
+   The management of company X considered the existing schedule is too rigid and decided to reduce the effort by relaxing the schedule so that everyone gets more time to work on the project.  
+
+  *  
+   <code> @rx def improveProcessMaturity(): return dict(Pmat = [5]) </code>  
+   The management of a company tested a process for long time to ensure that everyone in the company is so comfortable with the process that they could work with the process in mind.
 
 
 #Theory Question 3  
