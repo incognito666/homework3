@@ -65,15 +65,42 @@ List 3
 
 * Downsies (Reduce effort) 
   1. Analyst Capability (acap)  
-    Description: This determines the capability of the Analyst
+    Description: This determines the capability of the Analyst.  
+    Story: The management chose to have experienced analysts in this project. This corresponds to a high acap value and a reduction in effort.  
+
   2. Programmer Capability (pcap)  
+    Description: This determines the capcbility of the programmer.  
+   Story: The management chose to have skilled programmers for this project. This coresponds to a high pcap value and a reduction in effort.  
+
   3. Programmer Continuity (pcon)  
+    Description: This determines the value corresponding to the continuity of the programmer. It means retaining the programmer for the whole length of the project.  
+  Story: The management fixed the team menbers for the project and they were not taken out midway between the project. This results in a high pcon value and reduced effort.
+
   4. Analyst Experience (aexp)  
+    Description: It determines the experience of the analyst.  
+   Story: The management involved experienced analysts in the project resulting in a high aexp value and reduced effort.  
+
   5. Programmer Experience (pexp)  
+    Description: It determines the experience of the programmer.  
+   Story: The management involved experienced programmers in the project resulting in a high aexp value and reduced effort.  
+
   6. Language and Tool Experience (ltex)  
+    Description: This determins the experience of the team with the tool and the language used in the project.  
+  Story: The management used tools and language in which the team members were experienced and comfortable. This corresponded to a high ltex value and reduced effort.  
+
   7. Use of Tools (tool)  
-  8. Multiple SIte Development (site)  
-  9. Length of Schedule (sced) 
+   Description: It determins the quality and quantity of tools used in the project.  
+  Story: The management decided to use many tools to help ease the work in the project. this led to a high tool value and reduced effort.  
+
+  8. Multiple Site Development (site)  
+    Description: This denotes whether the development was done over multiple sites or on a single site.  
+   Story: The management decided to go with development over multiple sites which led to concurrent and distributed work corresponding to a high site value and a reduced effort.  
+
+  9. Length of Schedule (sced)  
+    Description: This determines the length of the schedule or project duration granted.  
+  Story: The management decided to go with a relaxed schedule causing a high sced value and reduced effort.  
+
+
 
 
 
