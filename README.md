@@ -99,6 +99,47 @@ List 3
   9. Length of Schedule (sced)  
     Description: This determines the length of the schedule or project duration granted.  
   Story: The management decided to go with a relaxed schedule causing a high sced value and reduced effort.  
+  
+#Theory Question 2  
+
+
+#Theory Question 3  
+
+* flight and ground
+ 1. range is different :  
+  flight-7,418  
+  ground-11,392  
+   This corresponds to the fact that it took significantly higheramount of effort for ground as compared to flight.  
+ 
+ 2. cplx is different :  
+  flight : 3,4,5,6  
+  ground : 1,2,3,4  
+   This corresponds to the fact that flight project was more complex as compared to ground project.  
+ 
+ 3. rely is different :  
+  flight : 3,4,5  
+  ground : 1,2,3,4  
+   This corresponds to the fact that flight project had a higher required reliability than the ground one.  
+
+
+* osp and osp2  
+ 1. flex is different :  
+  osp : 2,3,4,5  
+  osp2 : 3  
+   This corresponds to the fact that osp2 was rigid in terms of flexibility while osp ranged between high and low flexibility.  
+ 
+ 2. precedentness is different :  
+  osp : 1,2
+  osp2 : 3,4,5  
+   This corresponds to the fact that osp was novel in terms of what it was doing and people had no proir experience while in osp2, similar kinds of problems were seen earlier.  
+ 
+ 3. aexp is higher for osp2 :  
+  osp : 2,3  
+  osp2 : 4  
+   This corresponds to the fact that osp2 had analysts who were more experienced than those in osp. 
+
+
+
 
 
 
